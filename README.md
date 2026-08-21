@@ -37,7 +37,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RadicalNerd)
+- Frontend Mentor —[https://www.frontendmentor.io/profile/RadicalNerd]
 - Twitter - [https://www.twitter.com/Radicalnerd0]
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
