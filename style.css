@@ -1,0 +1,179 @@
+/* fonts */
+@font-face{
+    font-family:'Figtree';
+    font-style:normal;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf) format(".ttf") local("Figtree");
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'Figtree';
+    src: url(./assets/fonts/static/Figtree-Medium.ttf) format(".ttf");
+    font-weight: 500;
+}
+    body{
+        padding-top: 100px;
+        font-family: 'Figtree', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background-color:  hsl(47, 88%, 63%);
+        gap: 50px;
+    }
+    .card{
+        padding: 20px 0px 0px 25px ;
+        align-self: center;
+        justify-self: center;
+        background-color: hsl(0, 0%, 100%);
+        height: 505px;
+        width: 370px;
+        border-radius: 15px;
+        border:  black;
+        outline-color: black;
+        outline-style:solid;
+        outline-width: 1px;
+        /* outline-style: outset; */
+        box-shadow: 10px 9px 1px 1px black;
+    }
+    .card img[alt="Banner Image"]{
+        width: 335px;
+        height: 205px;
+        /* padding-left: 20px; */
+        border-radius: 20px;
+    }
+    #Learning-header{
+        background-color: hsl(47, 88%, 63%);
+        width: 80px;
+        height: 20px;
+        padding: 6.5px 0px 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: hsl(0, 0%, 7%);
+    }
+    .card h4{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #Course-Foundation{
+        font-size: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    #Course-Foundation:hover{
+        color: hsl(47, 88%, 63%);
+
+    }
+    .card p{
+        color: hsl(0, 0%, 42%);
+        font-size: 16px;
+        font-weight: 300px;
+        word-spacing: 1.7px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .author{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 50px;
+    }
+    .author img{
+        padding-top: 10px;
+        height: 40px;
+        width: 40px;  
+    }
+    .author h4{
+        font-weight: bolder;
+    }
+
+@media (max-width: 1440px){
+
+    body{
+        padding-top: 100px;
+        font-family: 'Figtree', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background-color:  hsl(47, 88%, 63%);
+        gap: 50px;
+    }
+    .card{
+        padding: 20px 0px 0px 25px ;
+        align-self: center;
+        justify-self: center;
+        background-color: hsl(0, 0%, 100%);
+        height: 505px;
+        width: 370px;
+        border-radius: 15px;
+        border:  black;
+        outline-color: black;
+        outline-style:solid;
+        outline-width: 1px;
+        /* outline-style: outset; */
+        box-shadow: 10px 9px 1px 1px black;
+    }
+    .card img[alt="Banner Image"]{
+        width: 335px;
+        height: 205px;
+        /* padding-left: 20px; */
+        border-radius: 20px;
+    }
+    #Learning-header{
+        background-color: hsl(47, 88%, 63%);
+        width: 80px;
+        height: 20px;
+        padding: 6.5px 0px 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: hsl(0, 0%, 7%);
+    }
+    .card h4{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #Course-Foundation{
+        font-size: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    #Course-Foundation:hover{
+        color: hsl(47, 88%, 63%);
+
+    }
+    .card p{
+        color: hsl(0, 0%, 42%);
+        font-size: 16px;
+        font-weight: 300px;
+        word-spacing: 1.7px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .author{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 50px;
+    }
+    .author img{
+        padding-top: 10px;
+        height: 40px;
+        width: 40px;  
+    }
+    .author h4{
+        font-weight: bolder;
+    }
+}
+@media(max-width: 600px){
+    .card{
+        width: 300px;
+        padding-top: 0px;
+        padding-left: 10px;    }
+    .card img[alt="Banner Image"]{
+        width: 276px;
+        border-radius: 20px;
+        padding: 0px 0px 0px 5px;
+    }
+    .card p{
+        word-spacing: 0.1px;
+        font-size: 14px;
+    }
+}
